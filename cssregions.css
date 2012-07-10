@@ -1,0 +1,39 @@
+#articlebody {
+   -webkit-flow-into: article-thread;
+   font-family: Palatino, Georgia, serif;
+   -webkit-hyphens: auto;
+}
+
+#articlebody p{
+	text-align: justify;
+	
+}
+
+.region {
+    -webkit-flow-from: article-thread;
+}
+
+#column1, #column2, #column3 {
+	float:left;
+	width:27%;
+	height:1000px;
+}
+
+#column2, #column3 {
+	margin-left:4%;
+}
+
+#column2 {
+	background: #eee;
+}
+
+section header p {
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+#articlebody  h2 {
+	color: #5E1A00;
+	margin: 20px 0 10px 0;
+	font-size: 14px;
+}

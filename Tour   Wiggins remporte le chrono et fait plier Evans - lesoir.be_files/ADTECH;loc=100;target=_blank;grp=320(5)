@@ -1,0 +1,73 @@
+__ADTECH_CODE__ = "";
+__theDocument = document;
+__theWindow = window;
+__bCodeFlushed = false;
+
+function __flushCode() {
+	if (!__bCodeFlushed) {
+		var span = parent.document.createElement("SPAN");
+		span.innerHTML = __ADTECH_CODE__;
+		window.frameElement.parentNode.appendChild(span);
+		__bCodeFlushed = true;
+	}
+}
+
+if (typeof inFIF != "undefined") {
+	document.write = function(str) {
+		__ADTECH_CODE__ += str;
+	};
+	
+	document.writeln = function(str) { document.write(str + "\n"); };
+
+	__theDocument = parent.document;
+	__theWindow = parent;
+}
+document.write("<div id=\"adpurl_alternative_1\"  style=\"display: none\">\n");
+document.write("\n");
+document.write("</div>\n");
+document.write("<scr"+"ipt>\n");
+document.write("document.write(\"<scri\"+\"pt type='text/javascript' src='http://adbox.rossel.be/php/ad.php?c=131220781398&adpurl_dim=298.170.1.2'>\");\n");
+document.write("document.write(\"</scr\"+\"ipt>\");\n");
+document.write("</scr"+"ipt>\n");
+function cleanUp() {
+	if (typeof __parent.swappedRefs3414657 == "undefined") {
+		__parent.swappedRefs3414657 = new Array();
+	}
+		
+	while (__parent.swappedRefs3414657.length > 0) {
+		var ref = __parent.swappedRefs3414657.pop();
+		if (ref != "swappedRefs3414657") {
+			__parent[ref] = null;
+		}
+	}
+}
+
+if (typeof inFIF != "undefined" && inFIF == true) {
+	__parent = window.parent;
+	window.onunload = cleanUp;
+	cleanUp();
+
+	
+	for (var ref in window) {
+		if ((typeof __parent[ref] == "undefined" || __parent[ref] == null) 
+					&& ref != "frameElement" && ref != "event" && ref != "swappedRefs3414657" && ref != "onunload") {
+			try {__parent[ref] = window[ref]; __parent.swappedRefs3414657.push(ref);} catch (e) {}
+		}
+	}	
+}	
+
+
+
+
+if (typeof inFIF != "undefined" && inFIF) {
+	__flushCode();
+}
+
+if (typeof inFIF != "undefined" && inFIF == true) {
+try {parent.write = write;
+} catch (e) {}try {parent.writeln = writeln;
+} catch (e) {}try {parent.__flushCode = __flushCode;
+} catch (e) {}}
+
+var adcount_3414657_1_=new Image();
+adcount_3414657_1_.src="http://adserver.adtech.de/adcount/3.0/927/3414657/0/131/AdId=6939042;BnId=1;ct=1038179158;st=2735;adcid=1;itime=920621000;reqtype=5;";

@@ -1,0 +1,261 @@
+
+<!-- saved from url=(0042)http://sso-http.rossel.be/opensso/UI/Login -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--meta http-equiv="refresh" content="60" /-->
+<title>OpenAM (Login)</title>
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<script language="JavaScript" src="browserVersion.js"></script>
+<script language="JavaScript" src="auth.js"></script>
+
+<script language="JavaScript">
+
+    writeCSS('/opensso');
+
+
+    var defaultBtn = 'Submit';
+    var elmCount = 0;
+
+    /** submit form with default command button */
+    function defaultSubmit() {
+        LoginSubmit(defaultBtn);
+    }
+
+    /**
+     * submit form with given button value
+     *
+     * @param value of button
+     */
+    function LoginSubmit(value) {
+        aggSubmit();
+        var hiddenFrm = document.forms['Login'];
+
+        if (hiddenFrm != null) {
+	    hiddenFrm.elements['IDButton'].value = value;
+            if (this.submitted) {
+                alert("The request is currently being processed");
+            }
+            else {
+                this.submitted = true;
+                hiddenFrm.submit();
+            }
+        }
+    }
+
+
+</script><link href="css_ns6up.css" type="text/css" rel="stylesheet">
+<script type="text/javascript"><!--// Empty script so IE5.0 Windows will draw table and button borders
+//-->
+</script>
+  
+</head>
+
+<body class="LogBdy">
+
+  <table border="0" cellpadding="0" cellspacing="0" align="center" title="">
+    <tbody><tr>
+      <td width="50%"><img src="dot.gif" width="1" height="1" alt=""></td>
+      <td><img src="dot.gif" width="728" height="1" alt=""></td>
+      <td width="50%"><img src="dot.gif" width="1" height="1" alt=""></td>
+    </tr>
+    
+    <tr>
+      <td class="LogMidBnd" style="background-image: url(/opensso/images/gradlogsides.jpg);
+        background-repeat:repeat-x;background-position:left top;">&nbsp;</td>
+      <td class="LogCntTd" style="background-image: url(/opensso/images/login-backimage-rossel.jpg);
+        background-repeat:no-repeat;background-position:left top;" height="435" align="center" valign="middle">
+        <table border="0" background="dot.gif" cellpadding="0" cellspacing="0" width="100%" title="">
+          <tbody><tr>
+            <td width="260"><img src="dot.gif" width="260" height="245" alt=""></td>
+            <td width="415" bgcolor="#ffffff" valign="top"><img src="dot.gif" width="30" height="1" alt=""><img name="Login.productLogo" src="PrimaryProductName.png" alt="OpenAM" border="0">
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tbody><tr>
+                  <td colspan="2">
+                      <img src="dot.gif" width="1" height="25" alt="">                                
+                  </td>
+                </tr>
+
+        <!-- display authentication scheme -->
+
+        <!-- Header display -->
+        <tr>
+        <td nowrap="nowrap"></td>
+        <td><div class="logTxtSvrNam">                    
+        
+            This server uses LDAP Authentication
+                
+        </div></td>
+        </tr>
+        <!-- End of Header display -->      
+  
+        
+
+        
+
+        <script language="javascript">
+            elmCount++;
+        </script>
+
+        
+
+        
+
+        
+
+        <!-- end of tiledCallbacks -->
+        
+
+        <script language="javascript">
+            elmCount++;
+        </script>
+
+        
+        <!-- text box display -->
+        <tr>
+        <form name="frm1" action="http://sso-http.rossel.be/opensso/UI/blank" onsubmit="defaultSubmit(); return false;" method="post"></form>
+
+        <td nowrap="nowrap"><div class="logLbl">
+            
+            <span class="LblLev2Txt">
+            <label for="IDToken1">                
+                 User Name:                            
+            </label></span></div>
+        </td>
+        
+        <td><div class="logInp">
+            <input type="text" name="IDToken1" id="IDToken1" value="" class="TxtFld"></div>
+        </td>
+        
+        </tr>        
+        <!-- end of textBox -->
+        
+
+        
+
+        
+
+        <!-- end of tiledCallbacks -->
+        
+
+        <script language="javascript">
+            elmCount++;
+        </script>
+
+        
+
+        
+        <!-- password display -->
+        <tr>
+        <form name="frm2" action="http://sso-http.rossel.be/opensso/UI/blank" onsubmit="defaultSubmit(); return false;" method="post"></form>
+
+        <td nowrap="nowrap"><div class="logLbl">
+            
+            <span class="LblLev2Txt">
+            <label for="IDToken2">  
+                 Password:                 
+            </label></span></div>
+        </td>
+
+        <td><div class="logInp">
+            <input type="password" name="IDToken2" id="IDToken2" value="" class="TxtFld"></div>
+        </td>
+        
+        </tr>        
+        <!-- end of password -->
+        
+
+        
+
+        <!-- end of tiledCallbacks -->
+        
+
+        <!-- end of validContent -->
+        
+
+
+        
+
+        
+
+        
+
+        
+        <!-- Submit button -->
+
+        
+
+        
+        <tr>
+        <td><img src="dot.gif" width="1" height="15" alt=""></td>
+            <script language="javascript">
+                markupButton(
+                    'Log In',
+                           "javascript:LoginSubmit('Log In')");
+            </script><td><div class="logBtn"><input name="Login.Submit" type="button" class="Btn1Def" value=" Log In " onclick="javascript:LoginSubmit(&#39;Log In&#39;)" onmouseover="javascript: if (this.disabled==0) this.className=&#39;Btn1DefHov&#39;" onmouseout="javascript: if (this.disabled==0) this.className=&#39;Btn1Def&#39;" onblur="javascript: if (this.disabled==0) this.className=&#39;Btn1Def&#39;" onfocus="javascript: if (this.disabled==0) this.className=&#39;Btn1DefHov&#39;"></div></td>
+        </tr>
+        <!-- end of hasNoButton -->
+        
+
+        <!-- end of ContentButtonLogin -->
+        
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><img src="dot.gif" width="1" height="33" alt=""></td>
+            <td>&nbsp;</td>
+        </tr>
+        </tbody></table>
+      </td>
+      <td width="45"><img src="dot.gif" width="45" height="245" alt=""></td>
+    </tr>
+    </tbody></table>
+    </td>
+    <td class="LogMidBnd" style="background-image: url(/opensso/images/gradlogsides.jpg);
+    background-repeat:repeat-x;background-position:left top;">&nbsp;</td>
+    </tr>
+    
+  </tbody></table>
+
+
+<form name="Login" action="Login.html" method="post">
+
+<script language="javascript">
+    if (elmCount != null) {
+        for (var i = 0; i < elmCount; i++) {
+            document.write(
+                "<input name=\"IDToken" + i + "\" type=\"hidden\">");
+        }
+        document.write("<input name=\"IDButton"  + "\" type=\"hidden\">");
+    }
+</script><input name="IDToken0" type="hidden"><input name="IDToken1" type="hidden"><input name="IDToken2" type="hidden"><input name="IDButton" type="hidden">
+<input type="hidden" name="goto" value="">
+<input type="hidden" name="SunQueryParamsString" value="">
+<input type="hidden" name="encoded" value="false">
+<input type="hidden" name="gx_charset" value="UTF-8"></form>
+
+
+
+
+
+<script type="text/javascript">
+	var exdate = new Date();
+	exdate.setDate(exdate.getDate() -1);
+	var cookieName = "AMAuthCookie";
+	document.cookie=cookieName+"=1;domain=.rossel.be;path=/;expires="+exdate;
+</script>
+<!--[if !IE]> -->
+<script type="text/javascript">
+	if (!/Opera[\/\s](\d+\.\d+)/.test(navigator.userAgent)){ 
+		var loc = document.location;
+	        var ref = document.referrer;
+	        if (ref !=null && ref!="" && ref!=loc){
+	                document.location="/opensso/UI/Login";
+        	}
+	}
+</script>
+<!-- <![endif]-->
+
+</body></html>

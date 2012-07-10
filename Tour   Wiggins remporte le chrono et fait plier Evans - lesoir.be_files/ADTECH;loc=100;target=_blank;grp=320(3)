@@ -1,0 +1,78 @@
+__ADTECH_CODE__ = "";
+__theDocument = document;
+__theWindow = window;
+__bCodeFlushed = false;
+
+function __flushCode() {
+	if (!__bCodeFlushed) {
+		var span = parent.document.createElement("SPAN");
+		span.innerHTML = __ADTECH_CODE__;
+		window.frameElement.parentNode.appendChild(span);
+		__bCodeFlushed = true;
+	}
+}
+
+if (typeof inFIF != "undefined") {
+	document.write = function(str) {
+		__ADTECH_CODE__ += str;
+	};
+	
+	document.writeln = function(str) { document.write(str + "\n"); };
+
+	__theDocument = parent.document;
+	__theWindow = parent;
+}
+document.write("\n");
+var url;
+url=window.location.href;
+if (url.indexOf("2012")>0) {
+//page article ==> pub visible
+document.write('<img src="http://adserver.adtech.de/utrack/3.0/927/0/0/0/BeaconId=12710;rettype=img;subnid=1;Section=Pub" width="1" height="1">');
+document.write('<scri'+'pt type="text/javascript" src="http://a.ligatus.com/?ids=25829&t=js"></sc'+'ript>');
+}
+else {
+//autre page => pas de pub
+document.write('<img src="http://adserver.adtech.de/utrack/3.0/927/0/0/0/BeaconId=12710;rettype=img;subnid=1;Section=PasDePub" width="1" height="1">');
+}
+function cleanUp() {
+	if (typeof __parent.swappedRefs2055097 == "undefined") {
+		__parent.swappedRefs2055097 = new Array();
+	}
+		
+	while (__parent.swappedRefs2055097.length > 0) {
+		var ref = __parent.swappedRefs2055097.pop();
+		if (ref != "swappedRefs2055097") {
+			__parent[ref] = null;
+		}
+	}
+}
+
+if (typeof inFIF != "undefined" && inFIF == true) {
+	__parent = window.parent;
+	window.onunload = cleanUp;
+	cleanUp();
+
+	
+	for (var ref in window) {
+		if ((typeof __parent[ref] == "undefined" || __parent[ref] == null) 
+					&& ref != "frameElement" && ref != "event" && ref != "swappedRefs2055097" && ref != "onunload") {
+			try {__parent[ref] = window[ref]; __parent.swappedRefs2055097.push(ref);} catch (e) {}
+		}
+	}	
+}	
+
+
+
+
+if (typeof inFIF != "undefined" && inFIF) {
+	__flushCode();
+}
+
+if (typeof inFIF != "undefined" && inFIF == true) {
+try {parent.write = write;
+} catch (e) {}try {parent.writeln = writeln;
+} catch (e) {}try {parent.__flushCode = __flushCode;
+} catch (e) {}}
+
+var adcount_2055097_1_=new Image();
+adcount_2055097_1_.src="http://adserver.adtech.de/adcount/3.0/927/2055097/0/261/AdId=7577741;BnId=1;ct=1037535335;st=2150;adcid=1;itime=920619774;reqtype=5;";

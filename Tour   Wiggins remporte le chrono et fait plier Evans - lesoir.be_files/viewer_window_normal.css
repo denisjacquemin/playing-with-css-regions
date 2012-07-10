@@ -1,0 +1,987 @@
+/* comment */
+#cil_page div,#cil_page dl,#cil_page dt,#cil_page dd,#cil_page ul,#cil_page ol,#cil_page li,#cil_page h1,#cil_page h2,#cil_page h3,#cil_page h4,#cil_page h5,#cil_page h6,#cil_page pre,#cil_page form,#cil_page fieldset,#cil_page input,#cil_page textarea,#cil_page p,#cil_page blockquote,#cil_page th,#cil_page td {
+    margin: 0;
+    padding: 0;
+}
+#cil_page {
+    line-height: 150%;
+    color: #363B35;
+    margin:0;
+    padding:0;
+    vertical-align:top;
+    text-align:left;
+    height: 100%;
+    margin-bottom: 1px;
+    scrollbar-base-color: #d1d3c1;
+    scrollbar-arrow-color: #363Bv35;
+    scrollbar-track-color: #E8E9E0;
+
+    scrollbar-shadow-color: #999999;
+    scrollbar-lightshadow-color: #999999;
+    scrollbar-darkshadow-color: #cccccc;
+
+    scrollbar-highlight-color: white;
+    scrollbar-3dlight-color: black;
+}
+#cil_page ol {
+    margin: 10px 10px 10px 20px;
+    padding: 0px 0px 0px 15px;
+}
+#cil_page ul {
+    margin: 10px 10px 10px 20px;
+    padding: 0px 0px 0px 15px;
+}
+#cil_page form {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+#cil_page a {border:none; text-decoration:underline; color:#E85D00;}
+#cil_page a:hover {text-decoration:none;}
+
+#cil_page table {border:0; border-collapse:collapse;font-size: 100%;}
+#cil_page td {line-height:16px;  padding:0;}
+#cil_page h6 {
+    font-weight: bold;
+    padding-bottom: 0px;
+    line-height: 100%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+#cil_page .pageborder {
+    border-width: 0px;
+}
+#cil_page .chatholder {
+    overflow: hidden;
+    border: 1px solid #c3c2c2;
+    margin: 0px;
+    background: #DFE0D8;
+    border-bottom: 0px;
+}
+
+#cil_page .clearingspace {
+    display: block;
+    line-height: 5px;
+    clear: both;
+}
+
+#cil_page .float-left { float: left; overflow: visible; padding-bottom: 4px; }
+#cil_page .float-right { float: right; overflow: visible; padding-bottom: 4px; }
+
+#cil_page .small {
+    font-size: 85%;
+    font-style: italic;
+    color: #666666;
+}
+/* upcoming window styles */
+#cil_page .reminder {
+    text-align: left;
+    background: #F6F6F6;
+    border-top: 1px solid #CFCECE;
+    border-bottom: 1px solid #CFCECE;
+    padding-left: 5px;
+padding-top: 5px;
+}
+#cil_page .remindereventtitle {
+    font-size: 120%;
+    font-weight: bold;
+}
+#cil_page .reminderdate {
+    width: 30px;
+    font-size: 100%;
+    text-align: center;
+
+}
+#cil_page .remindertime {
+    width: 30px;
+    font-size: 100%;
+    text-align: center;
+
+}
+#cil_page .remindertext {
+    font-size: 100%;
+    text-align: center;
+
+}
+
+#cil_page .reminderinputbox {
+    width: 170px;
+    height: 14px;
+    padding: 1px 2px 1px 2px;
+    border: 1px solid #C3C2C2;
+    background: #FFFFFF;
+    color: #323232;
+    vertical-align: middle;
+    font-size: 100%;
+}
+#cil_page .reminderselectbox {
+    height: 20px;
+    border: 1px solid #C3C2C2;
+    background: #FFFFFF;
+    color: #323232;
+    padding-top: 2px;
+    vertical-align: middle;
+    font-size: 100%;
+}
+#cil_page .reminderbutton {
+    font-size: 90%;
+}
+#cil_page .reminderbutton:hover {
+}
+#cil_page .remindersmall {
+    font-size: 85%;
+    font-style: italic;
+    color: #666666;
+}
+
+#cil_page a.reminderlink:link  { font-weight: normal;  }
+#cil_page a.reminderlink:hover {text-decoration:none;}
+/* end upcoming window styles */
+/* start veiled window */
+#cil_page .standardveil {
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 150;
+}
+
+#cil_page .customliveveil {
+    display: none;
+    background: #990000;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 150;
+}
+#cil_page .customreplayveil {
+    display: none;
+    background: #990000;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 150;
+}
+#cil_page .veilmainimage {
+}
+#cil_page .veiltext {
+    text-align: center;
+  font-weight: normal;
+    line-height: 0.9em;
+    color: #FFFFFF;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#cil_page .veilactiontext {
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.9em;
+    color: #FFFFFF;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+
+#cil_page .watchnow {
+}
+#cil_page .watchreplay {
+}
+#cil_page .watchstandby {
+}
+
+#cil_page .veiltoolbar {
+     height: 32px;
+     background: #000000;
+     color: #FFFFFF;
+     font-weight: bold;
+     text-align: center;
+     line-height: 32px;
+}
+#cil_page .veilfooter {
+    display: none;
+     height: 0px;
+     width: 100%;
+}
+#cil_page a.veiltoolbar {
+     color : #FFFFFF;
+     text-decoration:none;
+}
+#cil_page a.veiltoolbar:hover {
+     text-decoration:none;
+}
+/* end veiled window */
+/* Start Event Entries */
+#cil_page .mainchat {
+    position: relative;
+    overflow: auto;
+    width:  100%;
+    height: 370px;
+    background: #ffffff;
+    border-top: solid 1px #cfcece;
+    border-bottom: solid 1px #cfcece;
+}
+#cil_page .mainchatipod {
+    position: relative;
+    background: #ffffff;
+    border-top: solid 1px #cfcece;
+    border-bottom: solid 1px #cfcece;
+}
+
+#cil_page .live_indicator {
+    display: inline;
+}
+#cil_page .event_title_bar {
+    height: 35px;
+    background:  #e8e8e8 url() 0 0 no-repeat;
+    color: #323232;
+}
+#cil_page .event_title_upcoming {
+    font-size: 125%;
+    font-weight: bold;
+    color: #323232;
+}
+#cil_page .event_title {
+    font-size: 110%;
+    font-weight: bold;
+    color: #323232;
+}
+
+#cil_page #toptitle {
+    width:90%;
+}
+
+#cil_page .event_title_replay {
+    font-size: 110%;
+    font-weight: bold;
+    color: #323232;
+}
+#cil_page .replay_date {
+    display: inline;
+    font-size: 90%;
+    color: #323232;
+}
+
+#cil_page .expand {
+    font-size: 110%;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+#cil_page .expand  a:link  { color: #FFFFFF; font-weight: bold; text-decoration:none; }
+#cil_page .expand  a:hover {font-size: 120%;}
+
+#cil_page .chatmsg {
+    border-bottom: 1px dotted #CFCECE;
+    width: 100%;
+    vertical-align: top;
+}
+
+#cil_page .editchatmsg {
+    border-bottom: 1px dotted #CFCECE;
+    width: 710px;
+    vertical-align: top;
+}
+
+#cil_page .writeravatar {
+    display: block;
+padding-right: 3px;
+}
+#cil_page .readeravatar {
+    display: block;
+padding-right: 3px;
+}
+#cil_page .tweetavatar {
+    display: block;
+padding-right: 3px;
+}
+#cil_page .writeroverrideavatar {
+    display: none;
+    height: 48px;
+    width: 53px;
+    overflow: visible;
+    background: #ffffff url(../../images/css/avatar.gif) 0 0 no-repeat;
+
+padding-right: 3px;
+}
+#cil_page .readerdefaultavatar {
+    display: none;
+    height: 48px;
+    width: 53px;
+    overflow: visible;
+    background: #ffffff url(../../images/css/defautavatar_1.gif) 0 0 no-repeat;
+
+padding-right: 3px;
+}
+#cil_page .writercomment {
+    display: block;
+}
+#cil_page .tweetcomment {
+    display: block;
+}
+#cil_page .readercomment {
+    display: block;
+}
+#cil_page .imagecomment {
+    display: block;
+}
+#cil_page .videocomment {
+    display: block;
+}
+#cil_page .youtubecomment {
+    display: block;
+}
+#cil_page .pollcomment {
+    display: block;
+}
+#cil_page .adcomment {
+    display: block;
+}
+#cil_page .audiocomment {
+    display: block;
+}
+#cil_page .eventcompletedimage {
+    display: block;
+}
+#cil_page .addlentrycomment {
+    display: block;
+    background: #F6F6F6;
+}
+#cil_page .addlentryicon {
+    font-weight: bold;
+    width: 28px;
+    height: 100%;
+    background: #F6F6F6;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+#cil_page .addlentrytext {
+    color: #555654;
+    font-weight: bold;
+    height: 100%;
+    background: #F6F6F6;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+#cil_page a.addlentrytext:link {
+
+}
+#cil_page a.addlentrytext:hover {
+     text-decoration: none;
+}
+#cil_page .addlentryajaximage {
+    background: #F6F6F6 url(../../images/css/ajax-loaderf6.gif) 0 0 no-repeat;
+}
+
+#cil_page .event_now_live_text {
+    display: block;
+    font-size: 100%;
+    font-weight: bold;
+    margin: 0px;
+padding-left: 10px;
+}
+#cil_page .chatmsgtime {
+    display: block
+    font-size: 100%;
+    font-weight: bold;
+    width: 45px;
+    height: 100%;
+    background: #f6f6f6;
+     padding-left: 3px;
+    margin: 0px;
+}
+#cil_page .itemtime {
+    display: block;
+    width: 35px;
+padding-left: 3px;
+padding-top: 12px;
+}
+
+#cil_page .inlinedisplayname {
+    display: inline;
+    font-weight: bold;
+    float:left;
+}
+
+#cil_page .bottomnametime {
+    display: none;
+    width: 100%;
+    text-align: right;
+    color: #999999;
+    font-size: 8pt;
+    vertical-align: bottom;
+}
+#cil_page .bottomdate {
+    display: inline;
+}
+#cil_page .bottomtime {
+    color: #333333;
+}
+#cil_page .bottomdisplayname {
+    font-weight: bold;
+}
+#cil_page .chatmsgtext {
+    font-size: 100%;
+    background: #FFFFFF;
+    margin: 0px;
+    text-align: left;
+}
+
+#cil_page .commentmsgtext {
+    font-size: 90%;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+#cil_page .altcaster_text {
+    color: #000000;
+    font-size: 110%;
+    padding: 12px 12px;
+}
+#cil_page .tweet_text {
+    color: #000000;
+    font-size: 110%;
+    padding: 12px 12px;
+}
+#cil_page .via_twitter {
+   font-size:75%;
+   color:#8e8e8e;
+}
+#cil_page .viewer_text {
+    color: #283C65;
+    padding: 12px 12px;
+   font-size:110%;
+}
+#cil_page .viewer_textAPI {
+    color: #283C65;
+    padding: 12px 12px;;
+    font-size:110%;
+}
+#cil_page .media_text {
+    color: #000000;
+    font-size: 90%;
+    padding: 12px 12px;
+}
+#cil_page .inlinecommentname {
+
+}
+#cil_page .commentbracket {
+    display: none;
+}
+#cil_page .commentfrom {
+    display: inline;
+font-weight: bold;
+}
+#cil_page .nocommentfrom {
+    display: none;
+}
+#cil_page .pvtmsg {
+    color: #CC0000;
+    font-size: 110%;
+    padding: 5px 10px;
+}
+#cil_page .chatbotttom {
+    height: 60px;
+}
+
+/* End Event Entries */
+/* Start Answer poll question */
+#cil_page .popupbox {
+    display: block;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    background-color: #E8E9E0;
+    text-align: left;
+    margin-bottom: 2px;
+    width: 300px;
+    overflow:hidden;
+    z-index:1000001;
+    text-align: left
+}
+#cil_page .popup_header {
+    color: #111111;
+    font-size: 140%;
+    font-weight: bold;
+    border: 1px solid #c1c1c1;
+    padding: 5px;
+    background: #FFF url() 0 0 no-repeat;
+    text-align: left;
+}
+#cil_page .popup_body {
+    background-color: #FFF;
+    border: 1px solid #c1c1c1;
+    padding: 5px;
+}
+#cil_page .popup_headline {
+    color: #111111;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+}
+
+#cil_page .popup_text {
+    color: #333333;
+    font-size: 100%;
+    text-align: left;
+}
+/* End Answer poll question */
+#cil_page .pollquestion {
+    font-size: 105%;
+    font-weight: bold;
+    color: #323232;
+}
+#cil_page .pollquestionanswer {
+    font-size: 95%;
+    font-weight: bold;
+    color: #323232;
+}
+
+#cil_page .pollanswers {
+    position: relative;
+    overflow: visible;
+    height: 87px;
+    padding: 5px;
+    background: #f4f4f4;
+    border-top: solid 1px #CFCECE;
+    border-bottom: solid 1px #CFCECE;
+    font-size: 100%;
+}
+#cil_page .pollanswersinline {
+    overflow: hidden;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    background: #ffffff;
+    border: solid 1px #CCCCCC;
+    color: #333333;
+    font-size: 90%;
+}
+
+#cil_page .pollanswer {
+    font-size: 100%;
+    font-weight: bold;
+}
+#cil_page .pollanswerinline {
+    font-size: 100%;
+    font-weight: normal;
+}
+#cil_page #pollanswer {
+    margin-top:-10px;
+}
+#cil_page .pausebutton {
+    position:absolute;
+    top: -1px;
+    height: 14px;
+    padding-bottom: 3px;
+    border: 1px solid #CFCECE;
+    z-index; 1000;
+    text-align: center;
+}
+#cil_page .votenow {
+    color:#E85D00;
+    font-size: 80%;
+}
+
+#cil_page .answerbackground {
+    position:relative;
+    border: 1px solid #828282;
+    padding: 0px;
+    height: 14px;
+    background-color: #A7A7A7;
+    text-align: left;
+    margin-bottom: 7px;
+}
+#cil_page .answerholder {
+    position: absolute;
+    background-color:#ff9900;
+    color: #FFFFFF;
+    height:14px;
+    overflow:hidden;
+}
+#cil_page .answertext {
+    position:absolute;
+    color: #ffffff;
+    line-height: 12px;
+}
+#cil_page .answerbar1 {
+    position: absolute;
+    background-color:#ff9900;
+    color: #FFFFFF;
+    height:14px;
+    overflow:hidden;
+}
+#cil_page .answerbar2 {
+    position: absolute;
+    background-color:#cc0000;
+    color: #FFFFFF;
+    height:14px;
+    overflow:hidden;
+}
+#cil_page .answerbar3 {
+    position: absolute;
+    background-color:#00cc00;
+    color: #FFFFFF;
+    height:14px;
+    overflow:hidden;
+}
+#cil_page .answerbar4 {
+    position: absolute;
+    background-color:#3300ff;
+    color: #FFFFFF;
+    height:14px;
+    overflow:hidden;
+}
+#cil_page .answerbar5 {
+    position: absolute;
+    background-color:#00cccc;
+    color: #FFFFFF;
+    height:14px;
+    overflow:hidden;
+}
+#cil_page .answerbar6 {
+    position: absolute;
+    background-color:#990099;
+    color: #FFFFFF;
+    height:14px;
+    overflow:hidden;
+}
+
+/* End Polls */
+/* Start Newsflashes */
+#cil_page .nf_headline {
+    display: block;
+    font-weight: bold;
+    overflow: hidden;
+padding-left: 7px;
+}
+#cil_page .nf_text {
+    display: block;
+    line-height: 1.3;
+    overflow: auto;
+padding-left: 7px;
+padding-right: 7px;
+
+}
+/* End Newsflashes */
+/* Start Scoreboard */
+#cil_page .sb_headline {
+    display: block;
+    font-weight: bold;
+    overflow: hidden;
+padding-left: 7px;
+}
+#cil_page .sb_holder {
+    border: 1px solid #CFCECE;
+    background: #ddddff;
+}
+#cil_page .sb_teamname {
+    overflow: hidden;
+    white-space:nowrap;
+    font-weight: bold;
+    color: #000000;
+}
+#cil_page .sb_team_score {
+    color: #ffff00;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    background: #000000;
+    padding: 2px;
+}
+#cil_page .sb_v {
+    color: #000000;
+}
+#cil_page .sb_time {
+    font-weight: bold;
+    color: #000000;
+    overflow: hidden;
+    white-space:nowrap;
+    text-align: center
+}
+#cil_page .sb_period {
+    font-weight: bold;
+    color: #000000;
+}
+/* End Scoreboard */
+/* Start Standings */
+#cil_page .st_headline {
+    display: block;
+    font-weight: bold;
+    overflow: hidden;
+}
+#cil_page .st_number {
+
+}
+#cil_page .st_name {
+    overflow: hidden;
+    white-space:nowrap;
+}
+#cil_page .st_dots {
+
+}
+#cil_page .st_score {
+
+}
+/* End Standings */
+/* Comment entry area */
+#cil_page #mosForm {
+    background-color: transparent;
+}
+
+#cil_page .commentingfunction {
+    display: block;
+}
+#cil_page .viewingchatbox {
+    height: 68px;
+    filter:alpha(opacity=0);
+    opacity: 0;
+    width: 0;
+    display: none;
+    z-index: 100;
+    margin-top: 2px;
+background: #dfe0d8;
+}
+#cil_page .nocommenttoolbar {
+    height: 22px;
+    padding-top: 0px;
+    background: #F4F4F4;
+    border-top: solid 1px #CFCECE;
+    border-bottom: solid 1px #CFCECE;
+    z-index: 100;
+    text-align:    center;
+}
+#cil_page .yourname_text {
+
+}
+#cil_page .guestloginname_text {
+    font-weight: bold;
+    vertical-align:bottom;
+    text-decoration: none;
+}
+#cil_page .logoutlink {
+}
+#cil_page .nocommenttoolbar_text {
+    font-weight: bold;
+    padding-left: 4px;
+    vertical-align: middle;
+    display: inline;
+    z-index: 1;
+}
+#cil_page .standbytoolbar_text {
+    font-weight: bold;
+    padding-left: 4px;
+    vertical-align: middle;
+    display: inline;
+    z-index: 1;
+    color: #cc0000;
+}
+#cil_page .nostandbytoolbar_text {
+    font-weight: bold;
+    padding-left: 4px;
+    vertical-align: middle;
+    display: inline;
+    z-index: 1;
+    color: #339900;
+}
+#cil_page .logintoolbar_text {
+    font-weight: bold;
+    padding-left: 4px;
+    vertical-align: middle;
+    display: inline;
+    z-index: 1;
+    color: #cc0000;
+}
+#cil_page div input.inputbox {
+    width: 180px;
+    height: 18px;
+    padding-left: 2px;
+    padding-top: 2px;
+    border: 1px solid #c3c2c2;
+    background: #FFFFFF;
+    color: #323232;
+    font-size: 100%;
+
+}
+#cil_page .inputbox:focus , #cil_page .inputbox:hover {
+    background: #FFFFFF;
+    border: 1px solid #a0a7b2;
+}
+#cil_page .textareabox {
+    color: #323232;
+    font-size: 90%;
+    padding: 4px 2px 4px 3px;
+    border: 1px solid #c3c2c2;
+    overflow: auto;
+}
+
+#cil_page .textareabox:hover, .textareabox:focus  {
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #a0a7b2;
+
+}
+#cil_page .button
+{
+    background: transparent url(../../images/css/button_150.gif)  0 0 repeat-x;
+    color: #000000;
+    height: 22px;
+    font-size:12px;
+    font-weight: bold;
+    border: 1px solid #b2b2b2;
+    width: 65px;
+}
+#cil_page .button:hover {
+    background-position: 0 -22px;
+}
+/* End Comment entry area */
+#cil_page .countdown_body {
+    background-color: #FFFFFF;
+    border: 1px solid #c1c1c1;
+    padding: 5px;
+    height: 60px;
+}
+#cil_page .countdownnumber {
+    position: absolute;
+    top:    54px;
+    left:     80px;
+    font-weight: bold;
+    color: #000000;
+    font-size:  500%;
+    line-height: 100%;
+    text-align:    center;
+}
+
+
+/* Start Bottom Toolbar */
+#cil_page .viewingtoolbar {
+    height: 25px;
+    padding-top: 6px;
+    padding-bottom: 1px;
+    background: #e8e8e8 url() 0 0 no-repeat;
+    border: 1px solid  #CFCECE;
+    z-index: 100;
+    text-align:    center;
+}
+#cil_page .viewtoolbarelement {
+    padding-left: 4px;
+    vertical-align: middle;
+    display: inline;
+    z-index: 1;
+}
+#cil_page .viewingfooter {
+    display: none;
+     height: 0px;
+     width: 100%;
+}
+#cil_page .demandmedialogo {
+    position: absolute;
+    display: block;
+    background: url(../../images/css/demand_media_90.png) 0 0 no-repeat;
+    left: 2px;
+    height: 25px;
+    width: 90px;
+}
+/* End Bottom Toolbar */
+#cil_page .audiobar {
+    display: none;
+    z-index: 1;
+    height: 20px;
+    border-right: 1px solid #CFCECE;
+    border-left: 1px solid #CFCECE;
+    background: #DFE0D8;
+    padding-top:5px;
+}
+
+/* not used?  */
+#cil_page .editcontrols {
+     padding-left: 15px;
+     padding: 3px;
+     font-size: 10px;
+     display: none;
+}
+/* end not used */
+/* Start Enterprise Event listing boxes */
+#cil_page .cil_archivebox {
+    border: 1px solid #CFCECE;
+
+}
+#cil_page .cil_archiveheadings {
+    font-size:  125%;
+    font-weight:    bold;
+    padding:    5px;
+}
+#cil_page .cil_archivetabheadings {
+    font-weight:    bold;
+    padding:     5px;
+    text-align: center;
+}
+#cil_page .cil_archiverow0 {
+    background: #e8e8e8;
+    padding:    5px;
+    text-align: left;
+}
+#cil_page .cil_archiverow1 {
+    background: #f8f8f8;
+    padding:    5px;
+    text-align: left;
+}
+#cil_page .cil_archiverow0 a {border:none; text-decoration:none; }
+#cil_page .cil_archiverow0 a:hover {text-decoration:underline; }
+#cil_page .cil_archiverow1 a {border:none; text-decoration:none; }
+#cil_page .cil_archiverow1 a:hover {text-decoration:underline; }
+/* End Enterprise Event listing boxes */
+/* Start Translation */
+#cil_page .translateLangOption {
+    padding: 1px 5px;
+    cursor: pointer;
+}
+#cil_page .translateLangOption:Hover {
+    background-color: #E8E9E0;
+    color: #000;
+}
+#cil_page .translateLangOptionActiveLang {
+    background-color: #E8E9E0;
+    cursor: auto;
+}
+#cil_page .translateLangOptionTplLang{
+    font-style: italic;
+}
+/* End Translation */
+
+
+#cil_page .moreButton {
+    background: url(../../images/icons/click_live_buttons.png) repeat-x 0% 0%;
+    color:#fff;
+    width:97%;
+    margin:10px auto;
+    height:18px;
+    padding:6px 0;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+   border:solid 1px #323232;
+    cursor:pointer;
+}
+#cil_page .moreButton:hover {
+    background-position:0% -32px;
+}
+#cil_page .moreButton a {
+    text-decoration:none;
+}
+
+/*Dateline*/
+#cil_page div .dateline {
+    padding-left:5px;
+    border-bottom: 1px solid #CFCECE;
+height: auto;
+}

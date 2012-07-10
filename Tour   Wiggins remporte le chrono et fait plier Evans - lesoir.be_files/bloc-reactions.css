@@ -1,0 +1,420 @@
+/* Le bloc
+==================================================================================================== */
+
+.new_reactions {
+	background: #eae6e2;
+	font-size: 12px;
+	color: #2a2a2a;
+	/*text-shadow: 1px 1px 0 #f3f3f3;*/
+	/*font-family: Georgia, serif;*/
+	font-family: arial, sans-serif;
+	border-top: 2px solid #800000;
+	width: 483px;
+	overflow: hidden;
+	float: left;
+	clear: both;
+	margin: 9px auto;
+}
+.new_reactions a {color: #004276;}
+.new_reactions h2 {
+	color: #800000;
+	font-weight: 900;
+	font-size: 15px;
+	float: left;
+	margin: 5px 0 9px 9px !important;
+	font-family: 'Lucida Sans', 'Lucida Grande', arial, sans-serif;
+}
+
+/* Le formulaire
+==================================================================================================== */
+
+.new_reactions form {clear: both; padding: 9px; overflow: hidden;}
+.new_reactions form label {
+	color: #666;
+	/*font-size: 16px;*/
+	font-size:1em;
+	font-weight:900;
+	cursor: pointer;
+	font-family: arial, sans-serif;
+	color: #570000 !important;
+}
+.new_reactions form label span {color: #999; font-size: 12px;}
+.new_reactions form .mi-row {
+	width: 50%;
+	float: left;
+	padding: 9px 0;	
+}
+.new_reactions form .mi-row input {
+	padding: 5px;
+	border: 0;
+	background: white;
+	-moz-box-shadow: inset 1px 1px 5px #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	font-size: 16px;
+	color: #333;
+	margin-top: 9px;
+}
+.new_reactions form .mi-row #new_id {
+	width: 212px;
+}
+.new_reactions form .mi-row #new_mdp {
+	width: 222px;
+}
+.new_reactions form .row {
+	width: 100%;
+	padding: 9px 0;
+}
+.new_reactions form #new_title {
+	padding: 5px;
+	border: 0;
+	background: white;
+	-moz-box-shadow: inset 1px 1px 5px #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	width: 454px;
+	font-size: 16px;
+	color: #333;
+	margin-left: 0;
+	margin-top:9px;
+}
+* html .new_reactions form #new_title {
+	background: transparent url(/mediastore/static/title-on.gif) no-repeat 0 0;
+}
+*+html .new_reactions form #new_title {
+	background: transparent url(/mediastore/static/title-on.gif) no-repeat 0 0;
+}
+.new_reactions form textarea {
+	padding: 5px;
+	border: 0; 
+	background: white;
+	box-shadow: inset 1px 1px 5px #999;
+	-moz-box-shadow: inset 1px 1px 5px #999;
+	-webkit-box-shadow: inset 1px 1px 5px #999;
+	-o-box-shadow: inset 1px 1px 5px #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	width: 454px;
+	height: 130px;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	margin-top: 9px;
+}
+* html .new_reactions form textarea {
+	background: transparent url(/mediastore/static/textarea.gif) no-repeat 0 0;
+}
+*+html .new_reactions form textarea {
+	background: transparent url(/mediastore/static/textarea.gif) no-repeat 0 0;
+}
+.new_reactions form .new-pseudo {
+	font-size: 16px;
+	float: left;
+	padding-top: 0;
+	color: #626345;
+	font-family: arial, sans-serif;
+	width:300px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.new_reactions form .charte {
+	clear:left;
+	float:left;
+}
+.new_reactions form #new_submission {
+	float: right;
+	display: block;
+	width: 142px;
+	height: 35px;
+	background: transparent url(/mediastore/static/new_comment.gif) no-repeat 0 4px;
+	font-size: 12px;
+	font-family: arial, sans-serif;
+	border: 0;
+	padding: 0 0 0 9px;
+	text-align: left;
+	color: white;
+	font-weight: 900;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.8);
+}
+.new_reactions form #new_submission:hover, .new_reactions form #new_submission:focus {
+	outline: 0;
+	background: transparent url(/mediastore/static/new_comment_on.gif) no-repeat 0 4px;
+	cursor: pointer;
+}
+.new_reactions .new_all {
+	float: right;
+	font-family: arial, sans-serif;
+	text-shadow: -1px -1px 0  rgba(0,0,0,0.6);
+	font-weight: 900;
+	margin-right: 9px;
+	background: #9a9c68;
+	color: white;
+	padding: 5px 9px;
+}
+.new_reactions .new_all:hover, .new_reactions .new_all:focus {
+	background: #9a9c68;
+	background: #800000;
+	text-decoration: none;
+}
+
+/* inscription
+==================================================================================================== */
+
+.new_reactions .not-yet {
+	border-bottom: 1px solid #ccc;
+	float: left;
+	clear: both;
+	width: 456px;
+	margin: 0 0 4px 9px;
+	padding: 9px 0 15px 0;
+	display: inline;
+}
+.new_reactions .not-yet p {float: none; clear: both; color: #666; font-family: arial, sans-serif;}
+.new_reactions .not-yet .i-want {
+	float: right;
+	font-family: arial, sans-serif;
+	font-weight: 900;
+	color: #333;
+	padding: 7px 9px;
+	-o-box-shadow: inset 1px 1px 3px #999;
+	-webkit-box-shadow: inset 1px 1px 3px #999;
+	-moz-box-shadow: inset 1px 1px 3px #999;
+	box-shadow: inset 1px 1px 3px #999;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 9px;
+}
+.new_reactions .not-yet .i-apply {
+	float: left;
+	font-family: arial, sans-serif;
+	font-weight: 900;
+	color: #333;
+	padding: 7px 9px;
+	-o-box-shadow: inset 1px 1px 3px #999;
+	-webkit-box-shadow: inset 1px 1px 3px #999;
+	-moz-box-shadow: inset 1px 1px 3px #999;
+	box-shadow: inset 1px 1px 3px #999;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 9px;
+}
+.new_reactions .not-yet .i-new {
+	float: left;
+	font-family: arial, sans-serif;
+	font-weight: 900;
+	color: #333;
+	padding: 7px 9px;
+	margin: 0 0 0 45px;
+	-o-box-shadow: inset 1px 1px 3px #999;
+	-webkit-box-shadow: inset 1px 1px 3px #999;
+	-moz-box-shadow: inset 1px 1px 3px #999;
+	box-shadow: inset 1px 1px 3px #999;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 9px;
+}
+.new_reactions .not-yet .i-new a {color: #333;}
+* html .new_reactions .not-yet .i-want {
+	background: transparent url(/mediastore/static/inscription.gif) no-repeat 0 0;
+	padding: 10px;
+}
+* html .new_reactions .not-yet .i-apply {
+	background: transparent url(/mediastore/static/inscription.gif) no-repeat 0 0;
+	padding: 10px;
+}
+* html .new_reactions .not-yet .i-new {
+	background: transparent url(/mediastore/static/inscription.gif) no-repeat 0 0;
+	padding: 10px;
+}
+*+html .new_reactions .not-yet .i-want {
+	background: transparent url(/mediastore/static/inscription.gif) no-repeat 0 0;
+	padding: 10px;
+}
+*+html .new_reactions .not-yet .i-apply {
+	background: transparent url(/mediastore/static/inscription.gif) no-repeat 0 0;
+	padding: 10px;
+}
+*+html .new_reactions .not-yet .i-new {
+	background: transparent url(/mediastore/static/inscription.gif) no-repeat 0 0;
+	padding: 10px;
+}
+
+/* Les reactions
+==================================================================================================== */
+
+.new_reactions  .postwrapper, .new_reactions  .postwrapper.odd {
+	clear: both;
+	margin: 0 10px 15px 10px;
+	line-height: 1.4em;
+	overflow: hidden;
+}
+.new_reactions .postwrapper .my-comment {
+	padding: 10px;
+	background: #dad7d3;
+	overflow: hidden;
+	float: left;
+	width: 450px;
+}
+
+.new_reactions .postwrapper.odd .my-comment {
+	padding: 10px;
+	background: none;
+	overflow: hidden;
+	float: left;
+	width: 450px;
+}
+
+.new_reactions .postwrapper .my-comment p {
+	float: left;
+	text-align: justify;
+	width: 435px;
+	/*padding-right: 10px;*/
+	font-family: arial, sans-serif;
+}
+.new_reactions .postwrapper .my-abus {float: left; margin-top: 5px;}
+.new_reactions .postwrapper .my-abus * {display: inline;}
+.new_reactions .postwrapper .my-author {
+	display: block;
+	padding-bottom: 5px;
+	margin: 0 9px 5px 0;
+	border-bottom: 1px solid #ccc;
+	font-family: arial, sans-serif;
+	color:Maroon;
+}
+
+span.reaction_date {
+    font-size: 0.85em;
+    font-weight: normal;
+}
+
+.new_reactions .postwrapper .my-vote {
+	float: left;
+	width: 15px;
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+	background: #c2beba;
+}
+.new_reactions .postwrapper .my-vote a {
+	display: block;
+	float: left;
+	clear: left;
+	width: 15px;
+	line-height: 1;
+	padding: 5px 0;
+	text-align: center;
+	font-weight: 900;
+	color: #666;
+	font-size: 19px;
+}
+.new_reactions .postwrapper .my-vote a:hover, .new_reactions .postwrapper .my-vote a:focus {
+	color: white;
+	text-shadow: 1px 1px 0 black;
+	text-decoration: none;
+}
+.new_reactions .postwrapper .my-vote a span {display: none;}
+.new_reactions .postwrapper .my-vote .m-yes:hover, .new_reactions .postwrapper .my-vote .yes:focus {background: #499330;}
+.new_reactions .postwrapper .my-vote .m-no:hover, .new_reactions .postwrapper .my-vote .m-no:focus {background: #800000;}
+.new_reactions .postwrapper .m-percent {display: block; float: left; padding-right: 5px; font-size: 10px; font-family: arial, sans-serif;}
+.new_reactions .postwrapper .m-jauge {
+    display: block;
+	float: left;
+	overflow: hidden;
+    height: 10px;
+    width: 35px;
+	padding-top: 3px;
+	padding-right: 5px;
+}
+.new_reactions .postwrapper .m-jauge .m-yes {background: #499330; height: 10px; float: left; overflow: hidden;}
+.new_reactions .postwrapper .m-jauge .m-no {background: #800000; height: 10px; float: left; overflow: hidden;}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	font-size: inherit;
+}
+
+table tr td p{
+	font-size: 1em !important;
+    line-height: 1.4em !important;
+}
+
+.signal {width:190px;float:left;}
+.signal a{
+	font-family: arial, sans-serif;
+	text-shadow: -1px -1px 0  rgba(0,0,0,0.6);
+	font-weight: 900;
+	margin-right: 9px;
+	background: #9a9c68;
+	color: white;
+	padding: 2px 9px 3px 15px;
+    text-decoration: none;
+    width: 130px;
+	float:left;
+	text-align:center;
+}
+.signal a:hover, .signal a:focus {
+	background: #9a9c68;
+	background: #800000;
+	text-decoration: none;
+}
+.msg {line-height:1.9em !important;}
+.btn_oui {
+    background-color: #499330;
+    color: white !important;
+    font-size: 10px;
+    margin-right: 7px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    text-align: center;
+	font-family: arial,sans-serif;
+	text-shadow:none;
+}
+
+.btn_oui:hover {
+	background-color: #2D6A20;
+	text-decoration:none;
+}
+
+span.nbre_oui {
+    color: #499330;
+    font-size: 10px;
+    margin-right: 11px;
+}
+
+.btn_non {
+    background-color: #B31E20;
+    color: white !important;
+    font-size: 10px;
+    margin-left: 7px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    text-align: center;
+	font-family: arial,sans-serif;
+	text-shadow:none;
+}
+
+.btn_non:hover {
+	background-color: #800000;
+	text-decoration:none;
+}
+
+span.nbre_non {
+    color: #B31E20;
+    font-size: 10px;
+}

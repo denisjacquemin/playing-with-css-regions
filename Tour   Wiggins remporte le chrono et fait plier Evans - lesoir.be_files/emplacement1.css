@@ -1,0 +1,111 @@
+/* Feuille de style CSS pour l'empacement 1 */
+/* Table pricipale, content les annonces individuelles */
+
+.adpurl_style_table_1 {
+	text-align:left;
+	padding:0px;
+	margin:0px;
+	border-collapse:collapse;
+	/*border:solid 1px #e0e0e0;*/
+	border:solid 1px #b6b6b6;
+	background-color:#FFF;
+}
+.adpurl_style_row_1 {
+	padding:0px;
+}
+.adpurl_style_cell_1 {
+	padding:0px;
+	vertical-align:top;
+}
+/*individual ads*/
+
+.adpurl_style_ad_table_1 {
+	padding:0px;
+	border-collapse:collapse;
+	vertical-align:top;
+}
+/*Titre*/
+.adpurl_style_ad_title_cell_1 {
+	padding:0px;
+	padding-bottom:2px;
+	padding-top:4px;
+	padding-left:4px;
+		vertical-align:top;
+}
+.adpurl_style_title_1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	font-weight:bold;
+	text-decoration: underline;
+	color:#003269;
+}
+.adpurl_style_title_1:hover {
+	text-decoration: underline;
+}
+/*Texte*/
+.adpurl_style_ad_text_cell_1 {
+	padding:0px;
+	padding-bottom:2px;
+	padding-left:4px;
+		vertical-align:top;
+}
+.adpurl_style_text_1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	font-weight:normal;
+	color:#424242;
+	line-height: 130%;
+}
+.adpurl_style_text_1:hover {
+	text-decoration: none;
+}
+/*Link*/
+.adpurl_style_ad_link_cell_1 {
+	padding:0px;
+	padding-left:4px;
+		vertical-align:top;
+}
+.adpurl_style_link_1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	font-weight:normal;
+	font-style:italic;
+	color:#787878;
+}
+.adpurl_style_link_1:hover {
+	text-decoration: underline;
+}
+/*Image*/
+
+.adpurl_style_ad_image_cell_1 {
+		vertical-align:top;
+/*text-align: center;  */
+}
+/*Span around image*/
+.adpurl_style_image_1 {
+}
+.adpurl_style_img_1 {
+	margin:0px;
+	padding: 5px 10px 0 5px;
+}
+/*Your ad here*/
+.adpurl_style_your_ad_row_1 {
+	height:15px;
+	background-color:#e0e0e0;
+}
+.adpurl_style_your_ad_cell_1 {
+	padding:0px;
+	padding-right:3px;
+}
+.adpurl_style_your_ad_link_1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	font-weight:normal;
+	text-decoration: none;
+	color:#2d2d2d;
+}
+.adpurl_style_your_ad_link_1:hover {
+	text-decoration: underline;
+}
+
+

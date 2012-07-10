@@ -1,0 +1,10 @@
+document.write("<div align=\"center\">\n");
+document.write("<scr"+"ipt src=\"http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=4844142&PluID=0&w=728&h=90&ord=920618797&ucm=true&ncu=$$http://adserver.adtech.de/adlink/927/2055525/0/225/AdId=7805250;BnId=1;itime=920618797;nodecode=yes;link=$$&z=999999\">\n");
+document.write("</scr"+"ipt>\n");
+document.write("<noscript>\n");
+document.write("<a href=\"http://adserver.adtech.de/adlink/927/2055525/0/225/AdId=7805250;BnId=1;itime=920618797;nodecode=yes;link=http%3A//bs.serving-sys.com/BurstingPipe/adServer.bs%3Fcn%3Dbrd%26FlightID%3D4844142%26Page%3D%26PluID%3D0%26Pos%3D9049\" target=\"_blank\"><img src=\"http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=bsr&FlightID=4844142&Page=&PluID=0&Pos=9049\" border=0 width=728 height=90></a>\n");
+document.write("</noscript>\n");
+document.write("</div>\n");
+
+var adcount_2055525_1_=new Image();
+adcount_2055525_1_.src="http://adserver.adtech.de/adcount/3.0/927/2055525/0/225/AdId=7805250;BnId=1;ct=1036980512;st=1406;adcid=1;itime=920618797;reqtype=5;";
