@@ -1,4 +1,5 @@
 playing-with-css-regions
 ========================
 
-Sample redesign using Css Regions
+Testing CSS Regions with a redesign of lesoir.be 
+
